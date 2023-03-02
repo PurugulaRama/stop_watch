@@ -5,7 +5,7 @@ let Display=document.querySelector('.DisplayTimer')
 let[hours,minutes ,seconds ,milliseconds]=[0,0,0,0]
 let int=null
 
-//start 
+//start function
 document.getElementById('startBtn').addEventListener('click',()=>{
     if(int!==null){
       clearInterval(int)

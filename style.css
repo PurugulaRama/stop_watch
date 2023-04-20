@@ -5,6 +5,9 @@
     justify-content: center;
     height: 100vh;
     font-family: Arial, sans-serif;
+    background-image: url(stop_watch.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .DisplayTimer {
     font-size: 48px;
